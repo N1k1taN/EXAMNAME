@@ -1,0 +1,17 @@
+.wall3{width: 100vw;height: 100vh;background-color: whitesmoke;display: inline-block;}
+.svg2{width: 100%;height: 25%;}
+.img1,.img2,.img3,.img4,.img5,.img6{width: 27%;height: 45%;background-repeat: no-repeat;background-size:contain;}
+.img1{background-image: url(../Images/new1.jpg);}
+.img2{background-image: url(../Images/new2.jpg);}
+.img3{background-image: url(../Images/new3.jpg);}
+.img4{background-image: url(../Images/new4.jpg);}
+.img5{background-image: url(../Images/new5.jpg);}
+.img6{background-image: url(../Images/new6.png);}
+.wrap{width: 80%;height: 74%;display:flex;position: relative; left: 7%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media (min-width:1px) and (max-width:700px){
+    .img1,.img2,.img3,.img4,.img5,.img6{width: 45%;height: 25%;}
+    .wrap{left: 14%}
+}

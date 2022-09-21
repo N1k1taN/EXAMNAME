@@ -1,0 +1,49 @@
+#wall1{width: 100vw; height: 100vh;background-image: url(../Images/wallback1.jpg);background-size: cover;background-repeat: no-repeat;}
+.defoz{font:bold 3vw sans-serif;fill: gray;  text-shadow: 3px 3px rgb(178, 178, 178);}
+.defozs{font:bold 3vw sans-serif;fill: gray;  text-shadow: 3px 3px rgb(178, 178, 178); z-index: 999;}
+.svg1{width: 100%;height: 100%;}
+.aq{font:bold 2.5vw sans-serif;fill: #00CED1; z-index: 999;}
+.aa{font:bold 2vw sans-serif;fill: black; z-index: 999;}
+.rect1{width: 15%; height:10%;}
+.rect2{width: 15%; height:10%;}
+.rect3{height: 6%;width: 9%;}
+ul.nav{opacity: 0%;
+    position: absolute; top: 5%;right: 16%;display: block;
+}
+ul.nav a {
+    display: block;
+    width: 100%;
+    padding:10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #333;
+    border-right: 5px solid #333;
+    border-left: 1px solid #333;
+    text-decoration: none;
+    color: #333;
+}
+ul.nav li:last-child a {
+    border-bottom: 1px dashed #333;
+}
+.menu{position: absolute; right: 7%;top: 5%;background-image: url(../Images/menubloc.png);background-size: contain;background-repeat: no-repeat;
+width: 8%;height: 8%;}
+.buttoni {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px gray;
+    color: white;
+    text-align: center;
+    text-decoration: gray;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 38%;
+    top:65%;
+    color: gray;
+    padding: 3% 7%;
+    font-size: x-large;
+}
+@media (min-width:1px) and (max-width:700px){
+.rect1{height: 12%;}
+.rect2{height: 12%;width: 14%;}
+.rect3{height: 5%; position: relative;top: 30%;}
+.buttoni{left: 27%;}
+}
